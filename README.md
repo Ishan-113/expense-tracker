@@ -33,7 +33,9 @@ git clone https://github.com/Ishan-113/expense-tracker.git
 cd expense-tracker
 ```
 
-Open `index.html` in your browser. No build step is required.
+Open `index.html` in your browser.
+
+No build step is required.
 
 ## What I Learned
 
