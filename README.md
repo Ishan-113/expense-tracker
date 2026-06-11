@@ -2,6 +2,8 @@
 
 A clean expense tracking app built with vanilla HTML, CSS, and JavaScript.
 
+The app stores expense data in the browser using `localStorage`.
+
 ## Live Demo
 
 [expense-tracker-peach-three-29.vercel.app](https://expense-tracker-peach-three-29.vercel.app/)
@@ -13,7 +15,7 @@ A clean expense tracking app built with vanilla HTML, CSS, and JavaScript.
 - Calculate totals in real time.
 - Delete individual expenses.
 - Persist expense data with `localStorage`.
-- Use a responsive UI for desktop and mobile screens.
+- Use a responsive interface for desktop and mobile screens.
 
 ## Tech Stack
 
@@ -22,9 +24,19 @@ A clean expense tracking app built with vanilla HTML, CSS, and JavaScript.
 - Vanilla JavaScript
 - DOM manipulation
 - `localStorage`
-- JSON serialization with `JSON.stringify()` and `JSON.parse()`
-- JavaScript array methods such as `filter()`, `reduce()`, and `map()`
-- Vercel deployment
+- `JSON.stringify()`
+- `JSON.parse()`
+- JavaScript array methods
+- Vercel
+
+## JavaScript Concepts Practiced
+
+- Reading values from form inputs
+- Rendering dynamic UI from arrays
+- Filtering data with `filter()`
+- Calculating totals with `reduce()`
+- Creating category UI with `map()`
+- Saving and loading data with browser storage
 
 ## Run Locally
 
@@ -36,13 +48,6 @@ cd expense-tracker
 Open `index.html` in your browser.
 
 No build step is required.
-
-## What I Learned
-
-- Managing state in browser storage.
-- Rendering dynamic UI from arrays.
-- Filtering and reducing data for useful summaries.
-- Keeping a small frontend project organized and responsive.
 
 ## Author
 
